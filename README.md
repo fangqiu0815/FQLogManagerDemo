@@ -1,2 +1,3 @@
 # FQLogManagerDemo
 FQLogManager是个工具管理类，结合CocoaLumberjack使用
+有Swift和oc两种版本
