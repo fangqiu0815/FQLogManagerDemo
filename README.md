@@ -1,0 +1,2 @@
+# FQLogManagerDemo
+FQLogManager是个工具管理类，结合CocoaLumberjack使用
