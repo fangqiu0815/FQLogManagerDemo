@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C6AA953846E9FCBA3A88CB2 /* libPods-FQLogManagerDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DD462F1E06E5099DEBE47EE /* libPods-FQLogManagerDemo.a */; };
+		C49904D6251D80120014A6C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C49904D5251D80120014A6C6 /* AppDelegate.m */; };
+		C49904D9251D80120014A6C6 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C49904D8251D80120014A6C6 /* SceneDelegate.m */; };
+		C49904DC251D80120014A6C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C49904DB251D80120014A6C6 /* ViewController.m */; };
+		C49904DF251D80130014A6C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49904DD251D80130014A6C6 /* Main.storyboard */; };
+		C49904E1251D801C0014A6C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C49904E0251D801C0014A6C6 /* Assets.xcassets */; };
+		C49904E4251D801C0014A6C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C49904E2251D801C0014A6C6 /* LaunchScreen.storyboard */; };
+		C49904E7251D801C0014A6C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C49904E6251D801C0014A6C6 /* main.m */; };
+		C49904F1251D801C0014A6C6 /* FQLogManagerDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C49904F0251D801C0014A6C6 /* FQLogManagerDemoTests.m */; };
+		C49904FC251D801C0014A6C6 /* FQLogManagerDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C49904FB251D801C0014A6C6 /* FQLogManagerDemoUITests.m */; };
+		C4990519251D82290014A6C6 /* FQLogFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4990515251D82290014A6C6 /* FQLogFileManager.swift */; };
+		C499051A251D82290014A6C6 /* FQLogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4990516251D82290014A6C6 /* FQLogFormatter.swift */; };
+		C499051B251D82290014A6C6 /* FQLogManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4990517251D82290014A6C6 /* FQLogManager.swift */; };
+		C499051C251D82290014A6C6 /* FQFileLogFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4990518251D82290014A6C6 /* FQFileLogFormatter.swift */; };
+		C499052C251D82470014A6C6 /* FQLogManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C4990528251D82470014A6C6 /* FQLogManager.m */; };
+		C499052D251D82470014A6C6 /* FQLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C4990529251D82470014A6C6 /* FQLogFormatter.m */; };
+		C499052E251D82470014A6C6 /* FQFileLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C499052A251D82470014A6C6 /* FQFileLogFormatter.m */; };
+		C499052F251D82470014A6C6 /* FQLogFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C499052B251D82470014A6C6 /* FQLogFileManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C49904ED251D801C0014A6C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C49904C9251D80120014A6C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C49904D0251D80120014A6C6;
+			remoteInfo = FQLogManagerDemo;
+		};
+		C49904F8251D801C0014A6C6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C49904C9251D80120014A6C6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C49904D0251D80120014A6C6;
+			remoteInfo = FQLogManagerDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0DD462F1E06E5099DEBE47EE /* libPods-FQLogManagerDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FQLogManagerDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49904D1251D80120014A6C6 /* FQLogManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FQLogManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49904D4251D80120014A6C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C49904D5251D80120014A6C6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C49904D7251D80120014A6C6 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		C49904D8251D80120014A6C6 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		C49904DA251D80120014A6C6 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C49904DB251D80120014A6C6 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C49904DE251D80130014A6C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C49904E0251D801C0014A6C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C49904E3251D801C0014A6C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C49904E5251D801C0014A6C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49904E6251D801C0014A6C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C49904EC251D801C0014A6C6 /* FQLogManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQLogManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49904F0251D801C0014A6C6 /* FQLogManagerDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQLogManagerDemoTests.m; sourceTree = "<group>"; };
+		C49904F2251D801C0014A6C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C49904F7251D801C0014A6C6 /* FQLogManagerDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FQLogManagerDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C49904FB251D801C0014A6C6 /* FQLogManagerDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FQLogManagerDemoUITests.m; sourceTree = "<group>"; };
+		C49904FD251D801C0014A6C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4990515251D82290014A6C6 /* FQLogFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FQLogFileManager.swift; sourceTree = "<group>"; };
+		C4990516251D82290014A6C6 /* FQLogFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FQLogFormatter.swift; sourceTree = "<group>"; };
+		C4990517251D82290014A6C6 /* FQLogManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FQLogManager.swift; sourceTree = "<group>"; };
+		C4990518251D82290014A6C6 /* FQFileLogFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FQFileLogFormatter.swift; sourceTree = "<group>"; };
+		C4990524251D82470014A6C6 /* FQLogManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQLogManager.h; sourceTree = "<group>"; };
+		C4990525251D82470014A6C6 /* FQLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQLogFormatter.h; sourceTree = "<group>"; };
+		C4990526251D82470014A6C6 /* FQFileLogFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQFileLogFormatter.h; sourceTree = "<group>"; };
+		C4990527251D82470014A6C6 /* FQLogFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FQLogFileManager.h; sourceTree = "<group>"; };
+		C4990528251D82470014A6C6 /* FQLogManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQLogManager.m; sourceTree = "<group>"; };
+		C4990529251D82470014A6C6 /* FQLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQLogFormatter.m; sourceTree = "<group>"; };
+		C499052A251D82470014A6C6 /* FQFileLogFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQFileLogFormatter.m; sourceTree = "<group>"; };
+		C499052B251D82470014A6C6 /* FQLogFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FQLogFileManager.m; sourceTree = "<group>"; };
+		DED0637C9E1509FE0E798D45 /* Pods-FQLogManagerDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQLogManagerDemo.release.xcconfig"; path = "Target Support Files/Pods-FQLogManagerDemo/Pods-FQLogManagerDemo.release.xcconfig"; sourceTree = "<group>"; };
+		FD8B6ECFA4481AB02B5E941A /* Pods-FQLogManagerDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FQLogManagerDemo.debug.xcconfig"; path = "Target Support Files/Pods-FQLogManagerDemo/Pods-FQLogManagerDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C49904CE251D80120014A6C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C6AA953846E9FCBA3A88CB2 /* libPods-FQLogManagerDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49904E9251D801C0014A6C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49904F4251D801C0014A6C6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14F2B6B5279A0FE86F922333 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD8B6ECFA4481AB02B5E941A /* Pods-FQLogManagerDemo.debug.xcconfig */,
+				DED0637C9E1509FE0E798D45 /* Pods-FQLogManagerDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		97888D70207F8D50466FC68D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0DD462F1E06E5099DEBE47EE /* libPods-FQLogManagerDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C49904C8251D80120014A6C6 = {
+			isa = PBXGroup;
+			children = (
+				C49904D3251D80120014A6C6 /* FQLogManagerDemo */,
+				C49904EF251D801C0014A6C6 /* FQLogManagerDemoTests */,
+				C49904FA251D801C0014A6C6 /* FQLogManagerDemoUITests */,
+				C49904D2251D80120014A6C6 /* Products */,
+				14F2B6B5279A0FE86F922333 /* Pods */,
+				97888D70207F8D50466FC68D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C49904D2251D80120014A6C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C49904D1251D80120014A6C6 /* FQLogManagerDemo.app */,
+				C49904EC251D801C0014A6C6 /* FQLogManagerDemoTests.xctest */,
+				C49904F7251D801C0014A6C6 /* FQLogManagerDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C49904D3251D80120014A6C6 /* FQLogManagerDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C4990523251D82470014A6C6 /* FQLogManager_OC */,
+				C4990514251D82290014A6C6 /* FQLogManager_Swift */,
+				C49904D4251D80120014A6C6 /* AppDelegate.h */,
+				C49904D5251D80120014A6C6 /* AppDelegate.m */,
+				C49904D7251D80120014A6C6 /* SceneDelegate.h */,
+				C49904D8251D80120014A6C6 /* SceneDelegate.m */,
+				C49904DA251D80120014A6C6 /* ViewController.h */,
+				C49904DB251D80120014A6C6 /* ViewController.m */,
+				C49904DD251D80130014A6C6 /* Main.storyboard */,
+				C49904E0251D801C0014A6C6 /* Assets.xcassets */,
+				C49904E2251D801C0014A6C6 /* LaunchScreen.storyboard */,
+				C49904E5251D801C0014A6C6 /* Info.plist */,
+				C49904E6251D801C0014A6C6 /* main.m */,
+			);
+			path = FQLogManagerDemo;
+			sourceTree = "<group>";
+		};
+		C49904EF251D801C0014A6C6 /* FQLogManagerDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C49904F0251D801C0014A6C6 /* FQLogManagerDemoTests.m */,
+				C49904F2251D801C0014A6C6 /* Info.plist */,
+			);
+			path = FQLogManagerDemoTests;
+			sourceTree = "<group>";
+		};
+		C49904FA251D801C0014A6C6 /* FQLogManagerDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C49904FB251D801C0014A6C6 /* FQLogManagerDemoUITests.m */,
+				C49904FD251D801C0014A6C6 /* Info.plist */,
+			);
+			path = FQLogManagerDemoUITests;
+			sourceTree = "<group>";
+		};
+		C4990514251D82290014A6C6 /* FQLogManager_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				C4990515251D82290014A6C6 /* FQLogFileManager.swift */,
+				C4990516251D82290014A6C6 /* FQLogFormatter.swift */,
+				C4990517251D82290014A6C6 /* FQLogManager.swift */,
+				C4990518251D82290014A6C6 /* FQFileLogFormatter.swift */,
+			);
+			path = FQLogManager_Swift;
+			sourceTree = "<group>";
+		};
+		C4990523251D82470014A6C6 /* FQLogManager_OC */ = {
+			isa = PBXGroup;
+			children = (
+				C4990524251D82470014A6C6 /* FQLogManager.h */,
+				C4990525251D82470014A6C6 /* FQLogFormatter.h */,
+				C4990526251D82470014A6C6 /* FQFileLogFormatter.h */,
+				C4990527251D82470014A6C6 /* FQLogFileManager.h */,
+				C4990528251D82470014A6C6 /* FQLogManager.m */,
+				C4990529251D82470014A6C6 /* FQLogFormatter.m */,
+				C499052A251D82470014A6C6 /* FQFileLogFormatter.m */,
+				C499052B251D82470014A6C6 /* FQLogFileManager.m */,
+			);
+			path = FQLogManager_OC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C49904D0251D80120014A6C6 /* FQLogManagerDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4990500251D801C0014A6C6 /* Build configuration list for PBXNativeTarget "FQLogManagerDemo" */;
+			buildPhases = (
+				A7291464E4422CFDCEB398F7 /* [CP] Check Pods Manifest.lock */,
+				C49904CD251D80120014A6C6 /* Sources */,
+				C49904CE251D80120014A6C6 /* Frameworks */,
+				C49904CF251D80120014A6C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FQLogManagerDemo;
+			productName = FQLogManagerDemo;
+			productReference = C49904D1251D80120014A6C6 /* FQLogManagerDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C49904EB251D801C0014A6C6 /* FQLogManagerDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4990503251D801C0014A6C6 /* Build configuration list for PBXNativeTarget "FQLogManagerDemoTests" */;
+			buildPhases = (
+				C49904E8251D801C0014A6C6 /* Sources */,
+				C49904E9251D801C0014A6C6 /* Frameworks */,
+				C49904EA251D801C0014A6C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C49904EE251D801C0014A6C6 /* PBXTargetDependency */,
+			);
+			name = FQLogManagerDemoTests;
+			productName = FQLogManagerDemoTests;
+			productReference = C49904EC251D801C0014A6C6 /* FQLogManagerDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C49904F6251D801C0014A6C6 /* FQLogManagerDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4990506251D801C0014A6C6 /* Build configuration list for PBXNativeTarget "FQLogManagerDemoUITests" */;
+			buildPhases = (
+				C49904F3251D801C0014A6C6 /* Sources */,
+				C49904F4251D801C0014A6C6 /* Frameworks */,
+				C49904F5251D801C0014A6C6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C49904F9251D801C0014A6C6 /* PBXTargetDependency */,
+			);
+			name = FQLogManagerDemoUITests;
+			productName = FQLogManagerDemoUITests;
+			productReference = C49904F7251D801C0014A6C6 /* FQLogManagerDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C49904C9251D80120014A6C6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					C49904D0251D80120014A6C6 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					C49904EB251D801C0014A6C6 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = C49904D0251D80120014A6C6;
+					};
+					C49904F6251D801C0014A6C6 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = C49904D0251D80120014A6C6;
+					};
+				};
+			};
+			buildConfigurationList = C49904CC251D80120014A6C6 /* Build configuration list for PBXProject "FQLogManagerDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C49904C8251D80120014A6C6;
+			productRefGroup = C49904D2251D80120014A6C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C49904D0251D80120014A6C6 /* FQLogManagerDemo */,
+				C49904EB251D801C0014A6C6 /* FQLogManagerDemoTests */,
+				C49904F6251D801C0014A6C6 /* FQLogManagerDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C49904CF251D80120014A6C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49904E4251D801C0014A6C6 /* LaunchScreen.storyboard in Resources */,
+				C49904E1251D801C0014A6C6 /* Assets.xcassets in Resources */,
+				C49904DF251D80130014A6C6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49904EA251D801C0014A6C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49904F5251D801C0014A6C6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A7291464E4422CFDCEB398F7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FQLogManagerDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C49904CD251D80120014A6C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C499051C251D82290014A6C6 /* FQFileLogFormatter.swift in Sources */,
+				C49904DC251D80120014A6C6 /* ViewController.m in Sources */,
+				C499052D251D82470014A6C6 /* FQLogFormatter.m in Sources */,
+				C49904D6251D80120014A6C6 /* AppDelegate.m in Sources */,
+				C499052C251D82470014A6C6 /* FQLogManager.m in Sources */,
+				C499051A251D82290014A6C6 /* FQLogFormatter.swift in Sources */,
+				C499051B251D82290014A6C6 /* FQLogManager.swift in Sources */,
+				C499052E251D82470014A6C6 /* FQFileLogFormatter.m in Sources */,
+				C49904E7251D801C0014A6C6 /* main.m in Sources */,
+				C499052F251D82470014A6C6 /* FQLogFileManager.m in Sources */,
+				C4990519251D82290014A6C6 /* FQLogFileManager.swift in Sources */,
+				C49904D9251D80120014A6C6 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49904E8251D801C0014A6C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49904F1251D801C0014A6C6 /* FQLogManagerDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C49904F3251D801C0014A6C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49904FC251D801C0014A6C6 /* FQLogManagerDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C49904EE251D801C0014A6C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C49904D0251D80120014A6C6 /* FQLogManagerDemo */;
+			targetProxy = C49904ED251D801C0014A6C6 /* PBXContainerItemProxy */;
+		};
+		C49904F9251D801C0014A6C6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C49904D0251D80120014A6C6 /* FQLogManagerDemo */;
+			targetProxy = C49904F8251D801C0014A6C6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C49904DD251D80130014A6C6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49904DE251D80130014A6C6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C49904E2251D801C0014A6C6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C49904E3251D801C0014A6C6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C49904FE251D801C0014A6C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C49904FF251D801C0014A6C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4990501251D801C0014A6C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD8B6ECFA4481AB02B5E941A /* Pods-FQLogManagerDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FQLogManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdkj.FQLogManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		C4990502251D801C0014A6C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DED0637C9E1509FE0E798D45 /* Pods-FQLogManagerDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FQLogManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdkj.FQLogManagerDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		C4990504251D801C0014A6C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FQLogManagerDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdkj.FQLogManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FQLogManagerDemo.app/FQLogManagerDemo";
+			};
+			name = Debug;
+		};
+		C4990505251D801C0014A6C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FQLogManagerDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdkj.FQLogManagerDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FQLogManagerDemo.app/FQLogManagerDemo";
+			};
+			name = Release;
+		};
+		C4990507251D801C0014A6C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FQLogManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdkj.FQLogManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FQLogManagerDemo;
+			};
+			name = Debug;
+		};
+		C4990508251D801C0014A6C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = FQLogManagerDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jdkj.FQLogManagerDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FQLogManagerDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C49904CC251D80120014A6C6 /* Build configuration list for PBXProject "FQLogManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C49904FE251D801C0014A6C6 /* Debug */,
+				C49904FF251D801C0014A6C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4990500251D801C0014A6C6 /* Build configuration list for PBXNativeTarget "FQLogManagerDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4990501251D801C0014A6C6 /* Debug */,
+				C4990502251D801C0014A6C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4990503251D801C0014A6C6 /* Build configuration list for PBXNativeTarget "FQLogManagerDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4990504251D801C0014A6C6 /* Debug */,
+				C4990505251D801C0014A6C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4990506251D801C0014A6C6 /* Build configuration list for PBXNativeTarget "FQLogManagerDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4990507251D801C0014A6C6 /* Debug */,
+				C4990508251D801C0014A6C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C49904C9251D80120014A6C6 /* Project object */;
+}
